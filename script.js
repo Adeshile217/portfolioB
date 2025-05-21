@@ -1,3 +1,5 @@
+
+
 function setCircularProgress(containerId, percent) {
     if (!containerId) {
         return;
@@ -59,7 +61,14 @@ function setHorizontalProgress(barId, percent) {
 const downloadButton = document.getElementById('downloadButton').addEventListener('click', (e)=>{
     e.preventDefault()
 
-    alert('There is no file to download')
+    const link = document.createElement('a')
+    link.href = './Adeshile_Ibraheem_CV.docx'
+    link.download = './Adeshile_Ibraheem_CV.docx'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link);
+
+    alert('File downloaded')
 })
 
 
