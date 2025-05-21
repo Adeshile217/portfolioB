@@ -575,7 +575,7 @@ a{
         /* margin: 0 10px; */
     }
     #aboutAuthor {
-        width: 100%; /* Adjust width for smaller screens */
+        width: 100%; 
         padding: 0 10px;
         position: static;
     }
@@ -584,8 +584,7 @@ a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* padding: auto; */
-    /* background-color: rgb(39, 38, 41); */
+        
         height: 30vh;       
         position: static;
         width: 100%;
@@ -606,12 +605,12 @@ a{
         margin-top: 0;
     }
     #whatWeDo {
-        width: 100%; /* Adjust width for smaller screens */
+        width: 100%; 
         height: 100%;
         margin-left: 0;
     }
     #menu {
-        width: 10; /* Full width for mobile */
+        width: 10; 
         position: fixed;
         top: 0;
         height: 50px;
@@ -622,16 +621,16 @@ a{
         height: auto;
     }
     #billboard > div > h1 {
-        font-size: 30px; /* Adjust font size for smaller screens */
+        font-size: 30px; 
         
     }
     #aboutme {
-        width: 100%; /* Full width button */
-        font-size: 14px; /* Adjust font size */
+        width: 100%; 
+        font-size: 14px;
     }
     #experiences{
         display: grid;
-        /* flex-direction: column; */
+       
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         
         padding-left: 10px;
@@ -652,7 +651,7 @@ a{
     margin-block-start: 20px;
     margin-left: 10px;
     
-    /* margin-block-end: 0px; */
+   
     }
     #contacts{
         display: flex;
@@ -664,12 +663,12 @@ a{
 }
 @media (max-width: 480px) {
     #billboard > div > h1 {
-        font-size: 24px; /* Further adjust font size for mobile */
+        font-size: 24px; 
     }
     #aboutme{
-        font-size: 12px; /* Further adjust font size */
+        font-size: 12px; 
     }
     #experiences > p {
-        width: 100%; /* Stack experiences vertically */
+        width: 100%; 
     }
 }
