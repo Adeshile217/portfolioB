@@ -67,8 +67,7 @@ const downloadButton = document.getElementById('downloadButton').addEventListene
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link);
-
-    alert('File downloaded')
+    
 })
 
 
