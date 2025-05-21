@@ -601,7 +601,8 @@ a{
         /* border: solid thin red; */
     }
     #overview{
-        overflow-y: hidden;
+        overflow-y: none;
+        
         margin-top: 0;
     }
     #whatWeDo {
