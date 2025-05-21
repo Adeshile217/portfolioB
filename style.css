@@ -1,0 +1,674 @@
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(20, 19, 20);
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 12px;
+    /* padding: 10px; */
+    cursor: default;
+}
+
+
+
+
+
+
+
+
+#mainBackground {
+
+    background-color: rgb(26, 25, 27);
+   
+
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+#aboutAuthor {
+   
+    height: auto;
+    width: 20%;
+    margin-top: 0px;
+    position: fixed;
+
+
+}
+
+
+
+hr {
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    border: solid thin gray;
+}
+
+hr:nth-of-type(3){
+    margin-block-start: 25px;
+    margin-block-end: 0px;
+    background-color: hsl(0, 0%, 50%);
+}
+
+
+#intro {
+    background-color: rgb(39, 38, 41);
+    height: 216px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    position: fixed;
+   
+}
+
+
+#profilePic {
+   
+    width: auto;
+
+}
+
+img {
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    margin: 10px auto 0;
+    margin-left: 37%;
+    
+}
+
+#name {
+   
+    text-align: center;
+    
+    
+
+}
+
+#authorName {
+    color: white;
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    font-size: 15px;
+}
+
+#authorOccupation {
+    color: gray;
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    font-size: 12px;
+}
+
+#overview {
+    margin-top: 216px;
+    background-color: rgb(30, 29, 31);
+    height: 50vh;
+    /* width: 20%; */
+    padding: 5px 20px;
+    
+     overflow-y: scroll;
+     
+  scrollbar-color: rgb(30, 29, 31) gray;
+  scrollbar-width: thin;
+    
+}
+
+.locationBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.question {
+   
+    color: white;
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    
+}
+
+.answer {
+    
+    color: gray;
+    
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    
+}
+
+.skills {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+
+
+#language {
+    display: flex;
+    justify-content: space-between;
+    height: 98px;
+}
+
+#french,
+#english,
+#arabic {
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+    color: white;
+    margin-left: 6px;
+}
+
+.circular-progress {
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+svg {
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    transform: rotate(-90deg);
+    width: 50px;
+    height: 50px;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3;
+}
+
+.circle-progress {
+    
+    fill: none;
+    stroke: rgb(230, 204, 8);
+    stroke-width: 3;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 1s ease;
+}
+
+.percentage-text {
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    user-select: none;
+}
+
+
+
+.progress-bar-background {
+    width: 100%;
+    height: 4px;
+    background-color: #ddd;
+    margin-top: 0;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.progress-bar-fill {
+    margin-top: 0;
+    height: 100%;
+    width: 0%;
+    background-color: rgb(230, 204, 8);
+    transition: width 0.5s ease-in-out;
+    color: white;
+}
+
+
+#otherSkillsContainer{
+    margin-block-start: 15px;
+    margin-block-end: 0px;
+    color: gray;
+    
+}
+
+.markSymbol{
+    font-size: 12px;
+    color: rgb(230, 204, 8);
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+
+
+#downloadButton{
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    background-color: transparent;
+    border: none;
+    color: gray;
+    font-weight: bold;
+    
+    
+}
+#downloadButton:active{
+   
+    font-size: 13px;
+}
+
+
+
+.downloadIcon{
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    height: 8px;
+    width: 12px;
+    rotate: 90deg;
+    fill: gray;
+    
+    
+    
+}
+
+
+#footer{
+    height: 40px;
+    width: 20%;
+    background-color: rgb(39, 38, 41);
+    padding: 0 20px;
+    position: fixed;
+
+}
+
+
+
+
+
+
+
+#whatWeDo {
+    height: 100;
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 0 ;
+    margin-left: 22.5%;
+}
+
+
+
+
+#billboard {
+    
+    background-image:  
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./pexels-eberhardgross-673018.jpg)
+     ;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    box-sizing: border-box;
+    color: white;
+    
+}
+#quote>h1{
+    font-family: "Press Start 2P", system-ui;
+}
+#quote{
+    height: 100%;
+}
+#billboard>div>h1 {
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+    font-size: 43px;
+    font-weight: bold;
+    max-width: 450px;
+}
+
+#code{
+    color:  rgb(230, 204, 8);
+}
+
+#aboutme{
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    height: 30px;
+    width: 110px;
+    font-size: 8px;
+    text-align: center;
+    font-weight: 590;
+    border: none;
+    color: rgb(26, 25, 27);
+    background-color: rgb(230, 204, 8);
+}
+
+
+#experiences {
+    margin-block-start: 20px;
+    margin-block-end: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#experiences>p {
+    
+    height: 20px;
+    width: 17vw;
+    color: white;
+    font-weight: 500;
+
+}
+#experiences>p>span{
+    color: rgb(230, 204, 8);
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+h3 {
+    color: white;
+    font-size: 13px;
+}
+
+
+
+
+
+#service {
+   
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-rows: 4fr 4fr;
+    gap: 15px;
+}
+
+
+#myService>h3{
+    font-size: 15px;
+    margin-block-start: 20px;
+}
+
+
+
+
+.services {
+   
+    background-color: rgb(39, 38, 41);
+    padding: 20px;
+    
+
+
+}
+.services>p{
+    margin-block-start: 0px;
+    margin-block-end: 20px;
+    color: gray;
+    text-align: start;
+}
+
+.services>a{
+    color: rgb(230, 204, 8);
+    font-weight: bold;
+    text-decoration: none;  
+}
+
+#serviceFooter{
+    box-sizing: border-box;
+    margin-block-start: 20px;
+    margin-block-end: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(39, 38, 41);
+    padding: 10px 0;
+    color: grey;
+    text-align: center;}
+
+
+
+
+
+#menu {
+    
+    background-color:  rgb(30, 29, 31);
+    height: 100%;
+    width: 5%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+.container-fluid{
+    width: 5vw;
+}
+.navbar-toggler-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+}
+
+.navbar-toggler-icon>div{
+    height: 1px;
+    background-color: white; 
+    border-radius: 2px;
+}
+
+#offcanvasNavbar{
+    height: 100%;
+}
+
+#form{
+     background-color: rgb(30, 29, 31);
+    height: 300px;
+    width: 90%;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+    text-align: start;
+    margin: auto;
+}
+#formh5{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.placeholder{
+    margin-block-end: 20px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white ;
+    cursor: text;
+}
+#textarea{
+    margin-block-end: 10px;
+    width: 100%;
+    height: 65px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white ;
+}
+#sendButton{
+    height: 30px;
+    width: 110px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 590;
+    border: none;
+    color: rgb(26, 25, 27);
+    background-color: rgb(230, 204, 8);
+}
+
+#contacts{
+    margin-block-start: 20px;
+    margin-left:  20px;
+    margin-right: 20px;
+   
+    
+    
+}
+
+#contacts>p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.socialsIcon{
+    height: 25px;
+    width: 25px;
+    
+}
+#socialIcons{
+    
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+@media(max-width: 1024px){
+    #overview{
+        height: 58.5vh;
+    }
+}
+@media (max-width: 768px) {
+    #mainBackground{
+        height: auto;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 10px; */
+    }
+    #aboutAuthor {
+        width: 100%; /* Adjust width for smaller screens */
+        padding: 0 10px;
+        position: static;
+    }
+    #intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding: auto; */
+    /* background-color: rgb(39, 38, 41); */
+        height: 30vh;       
+        position: static;
+        width: 100%;
+    
+    }
+    #footer{
+        position: static;
+        width: 100%;
+    }
+    #profilePic{
+        width: auto;
+        margin-right: 50px;
+        /* border: solid thin red; */
+    }
+    #overview{
+        overflow-y: hidden;
+        margin-top: 0;
+    }
+    #whatWeDo {
+        width: 100%; /* Adjust width for smaller screens */
+        height: 100%;
+        margin-left: 0;
+    }
+    #menu {
+        width: 10; /* Full width for mobile */
+        position: fixed;
+        top: 0;
+        height: 50px;
+        background-color: transparent;
+
+    }
+    #billboard{
+        height: auto;
+    }
+    #billboard > div > h1 {
+        font-size: 30px; /* Adjust font size for smaller screens */
+        
+    }
+    #aboutme {
+        width: 100%; /* Full width button */
+        font-size: 14px; /* Adjust font size */
+    }
+    #experiences{
+        display: grid;
+        /* flex-direction: column; */
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        
+        padding-left: 10px;
+        
+    }
+    #experiences > p {
+        font-size: 12px;
+        width: auto;
+        text-align: start;
+    }
+    #service{
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        padding: 0 10px;
+
+    }
+    #myService>h3{
+    font-size: 15px;
+    margin-block-start: 20px;
+    margin-left: 10px;
+    
+    /* margin-block-end: 0px; */
+    }
+    #contacts{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+
+}
+@media (max-width: 480px) {
+    #billboard > div > h1 {
+        font-size: 24px; /* Further adjust font size for mobile */
+    }
+    #aboutme{
+        font-size: 12px; /* Further adjust font size */
+    }
+    #experiences > p {
+        width: 100%; /* Stack experiences vertically */
+    }
+}
