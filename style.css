@@ -1,4 +1,4 @@
-body {
+#homeBody {
     width: 100%;
     height: 100%;
     background-color: rgb(20, 19, 20);
@@ -8,10 +8,11 @@ body {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-    font-size: 12px;
+    font-size: 15px;
 
     cursor: default;
 }
+
 
 
 #mainBackground {
@@ -350,10 +351,14 @@ svg {
     background-color: rgb(230, 204, 8);
 }
 
+#aboutContact{
+    display: inline-block;
+}
+
 
 #experiences {
-    margin-block-start: 20px;
-    margin-block-end: 0px;
+    margin-block-start: 40px;
+    margin-block-end: 40px;
     display: flex;
     justify-content: space-between;
 }
@@ -381,6 +386,31 @@ h3 {
 
 
 
+#aboutTexts{
+    /* width: 60%; */
+    
+    margin: auto;
+    text-align: center;
+    background-color: rgb(39, 38, 41);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+#aboutTexts>h1{
+
+    color: gray;
+}
+
+
+
+#aboutTexts>p{
+
+}
+
+
+
+
+
 
 #service {
    
@@ -392,10 +422,14 @@ h3 {
     gap: 15px;
 }
 
+#myService{
 
+    margin-block-start: 40px;
+}
 #myService>h3{
-    font-size: 15px;
-    margin-block-start: 20px;
+    font-size: 20px;
+    color: rgb(230, 204, 8);
+
 }
 
 
@@ -432,6 +466,7 @@ h3 {
     padding: 10px 0;
     color: grey;
     text-align: center;}
+    
 
 
 
@@ -465,7 +500,7 @@ h3 {
 
 .navbar-toggler-icon>div{
     height: 1px;
-    background-color: white; 
+    background-color: rgb(230, 204, 8); 
     border-radius: 2px;
 }
 
@@ -649,6 +684,10 @@ a{
         display: flex;
         flex-direction: column;
         
+    }
+    #aboutTexts{
+        margin: 0 10px;
+
     }
     
 
