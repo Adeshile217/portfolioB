@@ -223,19 +223,19 @@
                 <div id="quote">
                     <h1>Discover my Amazing Art Space!</h1>
                     <p>&lt;<span id="code"> code</span>&gt;I build ios and android applications.|&lt;<span
-                        id="code">code</span>&gt;</p>
-                        <div id="aboutContact">
-                            
-                            <a href="#aboutTexts">
-                                
-                                <button type="button" id="aboutme">ABOUT ME</button>
-                            </a>
-                            <a href="#menu">
-                                
-                                <button type="button" id="aboutme"  data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" >CONTACT ME</button>
-                            </a>
-                        </div>
+                            id="code">code</span>&gt;</p>
+                    <div id="aboutContact">
+
+                        <a href="#aboutTexts">
+
+                            <button type="button" id="aboutme">ABOUT ME</button>
+                        </a>
+
+
+                        <button type="button" id="aboutme" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">CONTACT ME</button>
+
+                    </div>
 
                 </div>
                 <div></div>
@@ -295,7 +295,11 @@
                             database-driven platforms, I create web solutions
                             that look great and perform even better.
                         </p>
-                        <a href="./services.html">BOOK ME></a>
+
+                        <button type="button" class="bookMe"  data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbars" aria-controls="offcanvasNavbars" aria-label="Toggle navigation"> BOOK ME></button>
+
+
                     </div>
                     <div class="services" id="">
                         <h3>App Development</h3>
@@ -304,7 +308,10 @@
                             iOS, Android, or cross-platform, I deliver clean,
                             scalable apps designed to provide seamless user experiences.
                         </p>
-                        <a href="./services.html">BOOK ME></a>
+
+                        <button type="button" class="bookMe"  data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbars" aria-controls="offcanvasNavbars" aria-label="Toggle navigation"> BOOK ME></button>
+
                     </div>
                     <div class="services" id="">
                         <h3>Graphics Design</h3>
@@ -313,7 +320,10 @@
                             and digital creatives that tell your brand’s
                             story and leave a lasting impression on your audience.
                         </p>
-                        <a href="./services.html">BOOK ME></a>
+
+                        <button type="button" class="bookMe"  data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbars" aria-controls="offcanvasNavbars" aria-label="Toggle navigation"> BOOK ME></button>
+
                     </div>
                     <div class="services" id="">
                         <h3>Project Planning</h3>
@@ -322,7 +332,10 @@
                             are executed smoothly. I help businesses stay on track
                             with clear timelines, resource allocation, and strategy.
                         </p>
-                        <a href="./services.html">BOOK ME></a>
+
+                        <button type="button" class="bookMe"  data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbars" aria-controls="offcanvasNavbars" aria-label="Toggle navigation"> BOOK ME></button>
+
                     </div>
                     <div class="services" id="">
                         <h3>Advertising</h3>
@@ -332,7 +345,10 @@
                             and measurable results across platforms
                             like Google, Facebook, and Instagram.
                         </p>
-                        <a href="./services.html">BOOK ME></a>
+
+                        <button type="button" class="bookMe"  data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbars" aria-controls="offcanvasNavbars" aria-label="Toggle navigation"> BOOK ME></button>
+
                     </div>
                     <div class="services" id="">
                         <h3>Photography</h3>
@@ -341,7 +357,9 @@
                             photography services with a creative edge,
                             perfect for marketing, events, or personal projects.
                         </p>
-                        <a href="./services.html">BOOK ME></a>
+
+                        <button type="button" class="bookMe"   data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbars" aria-controls="offcanvasNavbars" aria-label="Toggle navigation"> BOOK ME></button>
 
                     </div>
                 </div>
@@ -444,7 +462,99 @@
                     </div>
                 </div>
             </div>
+            <div id="bookingmenu">
+               <div class="container-fluid">
+                   <a class="navbar-brand" href="#"></a>
+                   
+                   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbars"
+                       aria-labelledby="offcanvasNavbarLabel">
+                       <div class="offcanvas-header">
+                           <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Book With Me Today</h5>
+                           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                       </div>
+                       <div class="offcanvas-body">
+    
+                           <form action="" id="bookingForm">
+                               <h5 id="formh5">Send a booking</h5>
+                               <div>
+    
+                                   <input type="text" placeholder="Name" id="formName" class="placeholder" required>
+                               </div>
+                               <div>
+    
+                                   <input type="email" placeholder="Email" id="formEmail" class="placeholder" required>
+                               </div>
+                               <div>
+    
+                                   <input type="text" placeholder="Service" id="formEmail" class="placeholder" required>
+                               </div>
+                               <div>
+    
+                                   <textarea name="message" id="textarea" placeholder="Message" required></textarea>
+                               </div>
+                               <button type="submit" id="sendButton">SEND</button>
+                           </form>
+                           <div id="contacts">
+    
+                               <div>
+                                   <strong>
+                                       <h6>Contacts:</h6>
+                                   </strong>
+                                   <p>
+                                       <a href="tel:+97433693911">
+    
+                                           +974 3369 3911
+                                       </a>
+                                       <br>
+                                       <a href="sms:+2348127423610">
+    
+                                           +234 812 742 3610
+                                       </a>
+                                       <br>
+                                       <a href="mailto:sadeshile@gmail.com?subject=I%20have%20a%20job%20for%20you">
+    
+                                           ibraheemadeshile.q@gmail.com
+                                       </a>
+                                   </p>
+    
+    
+                               </div>
+    
+                               <div>
+                                   <strong>
+                                       <h6>Socials:</h6>
+                                   </strong>
+                                   <div id="socialIcons">
+                                       <a href="https://www.linkedin.com/in/adeshile-ibraheem-6133a5326/" target="_blank"
+                                           rel="noopener noreferrer">
+                                           <img src="./icons8-linkedin.svg" alt="linkedin" class="socialsIcon">
+                                       </a>
+    
+                                       <a href="https://www.github.com/Adeshile217" target="_blank"
+                                           rel="noopener noreferrer">
+                                           <img src="./icons8-github.svg" alt="github" class="socialsIcon">
+    
+                                       </a>
+                                       <a href="https://www.instagram.com/ade_adeshile__?igsh=MXVjaWkzcHJhbmJkeA%3D%3D&utm_source=qr"
+                                           target="_blank" rel="noopener noreferrer">
+    
+                                           <img src="./icons8-instagram.svg" alt="instagram" class="socialsIcon">
+                                       </a>
+                                       <a href="http://wa.me/2348127423610" target="_blank" rel="noopener noreferrer">
+    
+                                           <img src="./icons8-whatsapp.svg" alt="whatsapp" class="socialsIcon">
+                                       </a>
+                                   </div>
+    
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
         </div>
+
+
     </div>
 
 

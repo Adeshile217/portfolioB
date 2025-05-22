@@ -343,12 +343,13 @@ svg {
     margin-block-end: 0px;
     height: 30px;
     width: 110px;
-    font-size: 8px;
+    font-size: 12px;
     text-align: center;
     font-weight: 590;
     border: none;
     color: rgb(26, 25, 27);
     background-color: rgb(230, 204, 8);
+    /* font-size: 15px; */
 }
 
 #aboutContact{
@@ -395,6 +396,7 @@ h3 {
     padding: 20px;
     border-radius: 10px;
     color: white;
+    
 }
 #aboutTexts>h1{
 
@@ -403,9 +405,6 @@ h3 {
 
 
 
-#aboutTexts>p{
-
-}
 
 
 
@@ -450,10 +449,13 @@ h3 {
     text-align: start;
 }
 
-.services>a{
+.bookMe{
     color: rgb(230, 204, 8);
     font-weight: bold;
-    text-decoration: none;  
+    background-color: transparent;
+    border: none;
+    
+     
 }
 
 #serviceFooter{
@@ -479,8 +481,19 @@ h3 {
     width: 5%;
     padding: 10px;
     box-sizing: border-box;
+    margin-top: 0px;
 }
 
+#bookingmenu{
+    background-color:  transparent;
+    height: 1px;
+    width: 0.2px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: hidden;
+    
+
+}
 
 
 
@@ -519,6 +532,18 @@ h3 {
     text-align: start;
     margin: auto;
 }
+#bookingForm{
+      background-color: rgb(30, 29, 31);
+    height: 360px;
+    width: 90%;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+    text-align: start;
+    margin: auto;
+}
+
 #formh5{
     color: white;
     font-size: 15px;
@@ -592,6 +617,7 @@ a{
         height: 58.5vh;
     }
 }
+
 @media (max-width: 768px) {
     #mainBackground{
         height: auto;
