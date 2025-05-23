@@ -79,6 +79,13 @@ form.addEventListener('submit', function (e) {
     form.reset();
 });
 
+const bookingForm = document.getElementById('bookingForm')
+bookingForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    alert('Your booking has been sent')
+    form.reset();
+});
+
 chatbot = document.getElementById('chatbot')
 chatbotIcon = document.getElementById('chatbot-icon')
 chatbotHeader = document.getElementById('chatbot-header')
@@ -122,6 +129,9 @@ document.addEventListener('click', (e) => {
         chatbotIcon.style.display = 'flex'
     }
 })
+
+
+
 
 
 
